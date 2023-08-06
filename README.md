@@ -74,7 +74,9 @@ Upon evaluating the performance of the Linear Regression model, I observed an R�
 
 In contrast, the Decision Tree Regressor model yielded more promising results. The R² score for the training data was 0.626, while the test data exhibited an R² score of 0.5783. The corresponding RMSE values for training and testing were 1052.11 and 1078.59, respectively. The Decision Tree Regressor demonstrates better predictive ability and a closer fit to the actual values in comparison to the Linear Regression model.
 
-Considering the presented findings, I can confidently recommend the Decision Tree Regressor model for the dataset at hand. The model's superior R² scores and comparatively lower RMSE values on both training and testing data indicate a stronger ability to capture underlying patterns and generalize to unseen data. The Decision Tree Regressor offers improved predictive performance, making it a more suitable choice for our regression task.
+While the Decision Tree Regressor model emerges as the more suitable choice based on the presented findings, it is important to note that even though it performs better, it still falls short of achieving the optimal scores. This limitation is attributed to the inherent nature of the dataset, characterized by a relatively lower degree of correlation between variables. The predictive performance of both models is influenced by this underlying aspect.
+
+In conclusion, while the Decision Tree Regressor offers improved predictive performance over the Linear Regression model, it's essential to acknowledge that both models face challenges due to the limited correlation present in the data. Despite this, the Decision Tree Regressor stands as a more viable choice for our regression task, capturing underlying patterns and demonstrating a greater ability to generalize to unseen data.
 
 # Recommendations
 
