@@ -44,20 +44,24 @@ I performed Linear Regression and Simple Trees models to see which may be best f
 
 - R2 Score:
   Train: 0.533608410362132
+
   Test: 0.5287093619755183
   
 - RMSE:
   Train: 1174.8469051314
+
   Test: 1140.2982795152557
 
 ## Simple Tree:
 
 - R2 Score:
   Train: 0.6259687154308151
+
   Test: 0.5783414027430644
   
 - RMSE:
   Train: 1052.1069426582408
+
   Test: 1078.5854129554593
 
 ## Model Evaluation and Findings:
