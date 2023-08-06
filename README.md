@@ -50,7 +50,7 @@ I performed Linear Regression and Simple Trees models to see which may be best f
   Train: 1174.8469051314
   Test: 1140.2982795152557
 
-  ## Simple Tree:
+## Simple Tree:
 
 - R2 Score:
   Train: 0.6259687154308151
@@ -71,9 +71,9 @@ Considering the presented findings, I can confidently recommend the Decision Tre
 # Recommendations
 
 My findings lead me to the following conclusions and recommendations:
-* 		Prioritize Supermarkets over Grocery Stores: Shift your attention towards supermarkets rather than grocery stores.
-* 		Enhance Item Visibility:  Ensure optimal visibility for your items.
-* 		Competitive Pricing and Occasional Sales:  Consider implementing competitive pricing strategies or periodic sales promotions.
-* 		Profitable Seafood Market: The seafood segment demonstrates potential for profitability.
+- Prioritize Supermarkets over Grocery Stores: Shift your attention towards supermarkets rather than grocery stores.
+- Enhance Item Visibility:  Ensure optimal visibility for your items.
+- Competitive Pricing and Occasional Sales:  Consider implementing competitive pricing strategies or periodic sales promotions.
+- Profitable Seafood Market: The seafood segment demonstrates potential for profitability.
 
 These insights offer strategic directions to enhance sales and optimize your market approach.
