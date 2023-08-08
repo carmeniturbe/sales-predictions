@@ -44,39 +44,55 @@ I performed Linear Regression and Simple Trees models to see which may be best f
 
 - R2 Score:
   
-  Train: 0.533608410362132
+  Train: 0.5271927340568043
 
-  Test: 0.5287093619755183
+  Test: 0.5188218954890396
   
 - RMSE:
   
-  Train: 1174.8469051314
+  Train: 1175.5378103908606
 
-  Test: 1140.2982795152557
+  Test: 1176.813204725337
 
-## Simple Tree:
+## Simple Decision Tree:
 
 - R2 Score:
   
-  Train: 0.6259687154308151
+  Train: 0.6160308756204118
 
-  Test: 0.5783414027430644
+  Test: 0.5916472077034576
   
 - RMSE:
   
-  Train: 1052.1069426582408
+  Train: 1059.3578354805206
 
-  Test: 1078.5854129554593
+  Test: 1084.107550470981
+
+## Random Forest:
+
+- R2 Score:
+  
+  Train: 0.6250694432556143
+
+  Test: 0.6003007932873522
+  
+- RMSE:
+  
+  Train: 1046.8150307344442
+
+  Test: 1072.5591384139607
 
 ## Model Evaluation and Findings:
 
-Upon evaluating the performance of the Linear Regression model, I observed an R² score of 0.5336 for the training data and 0.5287 for the test data. Additionally, the RMSE values were calculated to be 1174.85 for training and 1140.30 for testing. These metrics suggest that the Linear Regression model captures a certain degree of variance, albeit with moderate predictive accuracy. The test RMSE indicates the average error between the predicted and actual values.
+Upon evaluating the performance of the Linear Regression model, I observed an R² score of 0.5271 for the training data and 0.5188 for the test data. Additionally, the RMSE values were calculated to be 1175.5378 for training and 1176.813 for testing. These metrics suggest that the Linear Regression model captures a certain degree of variance, albeit with moderate predictive accuracy. The test RMSE indicates the average error between the predicted and actual values.
 
-In contrast, the Decision Tree Regressor model yielded more promising results. The R² score for the training data was 0.626, while the test data exhibited an R² score of 0.5783. The corresponding RMSE values for training and testing were 1052.11 and 1078.59, respectively. The Decision Tree Regressor demonstrates better predictive ability and a closer fit to the actual values in comparison to the Linear Regression model.
+The performance of the Decision Tree Regressor model was very similar, The R² score for the training data was 0.6160, while the test data exhibited an R² score of 0.5916. The corresponding RMSE values for training and testing were 1059.35 and 1084.10, respectively.
 
-While the Decision Tree Regressor model emerges as the more suitable choice based on the presented findings, it is important to note that even though it performs better, it still falls short of achieving the optimal scores. This limitation is attributed to the inherent nature of the dataset, characterized by a relatively lower degree of correlation between variables. The predictive performance of both models is influenced by this underlying aspect.
+In contrast, the Random Forest Model yielded more promising results. The R² score for the training data was 0.6250, while the test data exhibited an R² score of 0.6003. The corresponding RMSE values for training and testing were 1046.81 and 1072.55, respectively. The Random Forest model demonstrates better predictive ability and a closer fit to the actual values in comparison to the Linear Regression and Decision Tree regressor models.
 
-In conclusion, while the Decision Tree Regressor offers improved predictive performance over the Linear Regression model, it's essential to acknowledge that both models face challenges due to the limited correlation present in the data. Despite this, the Decision Tree Regressor stands as a more viable choice for our regression task, capturing underlying patterns and demonstrating a greater ability to generalize to unseen data.
+While the Random Forest model emerges as the more suitable choice based on the presented findings, it is important to note that even though it performs better, it still falls short of achieving the optimal scores. This limitation is attributed to the inherent nature of the dataset, characterized by a relatively lower degree of correlation between variables. The predictive performance of the models is influenced by this underlying aspect.
+
+In conclusion, while Random Forest model offers improved predictive performance over the Linear Regression and  Decision Tree Regressor models, it's essential to acknowledge that all models face challenges due to the limited correlation present in the data. Despite this, the Random Forest model stands as a more viable choice for our  task, capturing underlying patterns and demonstrating a greater ability to generalize to unseen data.
 
 # Recommendations
 
